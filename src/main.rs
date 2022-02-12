@@ -71,8 +71,10 @@ async fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync>> {
 
             let pb = ProgressBar::new(len as u64);
             pb.set_style(ProgressStyle::default_bar()
-            .template("{spinner:.green} [{elapsed_precise}] [{wide_bar:.cyan/blue}] {bytes}/{total_bytes} ({eta})")
+            .template("{spinner:.green} [{elapsed_precise}] [{wide_bar:.green/white}] {bytes}/{total_bytes} ({bytes_per_sec}, {eta})")
             .progress_chars("#>-"));
+
+
             
             //create the file name
             let mut file_cronstruction = String::new();
