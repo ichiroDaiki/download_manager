@@ -1,5 +1,5 @@
 [package]
-name = "downloadManager"
+name = "download_manager"
 version = "0.1.0"
 edition = "2021"
 
@@ -12,3 +12,5 @@ hyper-tls = "0.5.0"
 indicatif = "0.16.2"
 serde = "1.0.136"
 serde_json = "1.0"
+terminal-emoji = "0.4.1"
+mime = "0.3.16"
