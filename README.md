@@ -1,4 +1,5 @@
 ## Download Manager
+Just download the file and run ** cargo build **
 ```
-Download and compile the code, to get the .exe file.
+./download_manager url
 ```
